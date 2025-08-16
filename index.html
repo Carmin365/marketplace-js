@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoArtesanato</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>EcoArtesanato</h1>
+        <p>Produtos artesanais que respeitam o planeta.</p>
+    </header>
+
+    <main>
+        <section class="produto-grid">
+            <div class="produto-card" id="prod1">
+                <img src="imgs/vaso.png" alt="Vaso de cerâmica reciclada">
+                <h2>Vaso de Cerâmica Reciclada</h2>
+                <p class="artesao">Por: Flora Pessoa</p>
+                <p>Feito com cerâmica de reuso. <strong>Sustentável.</strong></p>
+                <button onclick="adicionarAoCarrinho('Vaso de Cerâmica')">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="produto-card" id="prod2">
+                <img src="imgs/bolsa.png" alt="Bolsa de tecido orgânico">
+                <h2>Bolsa de Algodão Orgânico</h2>
+                <p class="artesao">Por: José Moreira</p>
+                <p>Tecido orgânico, corante natural. <strong>Sustentável.</strong></p>
+                <button onclick="adicionarAoCarrinho('Bolsa de Algodão')">Adicionar ao Carrinho</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

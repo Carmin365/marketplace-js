@@ -1,0 +1,59 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #f7f3e9;
+    color: #5d4037;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4a654c;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.produto-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.produto-card {
+    background-color: white;
+    border: 1px solid #dcd7c4;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.produto-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.produto-card h2 {
+    color: #4a654c;
+    margin-top: 0;
+}
+
+.artesao {
+    font-style: italic;
+    color: #888;
+}
+
+.produto-card button {
+    background-color: #795548;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
